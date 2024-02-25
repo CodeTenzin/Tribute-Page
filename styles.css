@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  margin: 20px 10px;
+}
+
+.container {
+  margin: 0 auto;
+  background: lightgrey;
+  font-size: 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1px 0;
+}
+
+h1 {
+  letter-spacing: 0.7px;
+}
+
+#header-quote::before {
+  content: "-";
+}
+
+figure {
+  background: white;
+  padding: 10px 20px;
+}
+
+img {
+  height: 75vh;
+}
+
+/* Main */
+main {
+  width: 50vw;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.year {
+  font-weight: bolder;
+}
+
+li {
+  margin: 30px 0;
+}
+
+blockquote footer {
+  text-align: start;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 40px;
+}
